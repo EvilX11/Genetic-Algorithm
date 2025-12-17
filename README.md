@@ -20,3 +20,45 @@ Maximize the number of `1`s using genetic operations.
 
 Example:
 
+---
+
+## ⚙️ Genetic Algorithm Components
+
+- **Population Size:** 20
+- **Chromosome Length:** 16
+- **Selection:** Tournament Selection
+- **Crossover:** Single-Point Crossover
+- **Mutation Rate:** 1%
+- **Generations:** 50
+
+---
+
+## 🧠 Algorithm Workflow
+
+1. Initialize population with low fitness (~5)
+2. Evaluate fitness
+3. Select parents
+4. Apply crossover
+5. Apply mutation
+6. Create next generation
+7. Track best chromosome
+8. Plot fitness improvement
+
+---
+
+## 📊 Results
+
+- Best and average fitness increase over generations
+- Chromosomes gradually converge toward optimal solution
+- Fitness evolution graph included
+
+---
+
+## 🚀 How to Run Locally
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/genetic-algorithm-onemax.git
+cd genetic-algorithm-onemax
+
+
